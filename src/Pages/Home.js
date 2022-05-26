@@ -3,7 +3,7 @@ import profile from "../assets/profile_pic.png";
 
 const Home = () => {
   return (
-    <div className="hero min-h-screen">
+    <div className="hero min-h-screen  mt-[-7vh]">
       <div className="hero-content flex-col gap-20 lg:flex-row-reverse">
         <img
           src={profile}
@@ -18,8 +18,8 @@ const Home = () => {
           <p className="pb-5 lg:text-2xl capitalize">
             A full stact web developer
           </p>
-          <button className="btn btn-primary text-white font-bold rounded-full">
-            Get Resume
+          <button className="btn btn-outline text-slate-400 font-bold rounded-full">
+            Know more
           </button>
         </div>
       </div>
