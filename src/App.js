@@ -5,7 +5,7 @@ import Home from "./Pages/Home";
 
 function App() {
   return (
-    <div className=" max-w-7xl mx-auto shadow-xl shadow-slate-800">
+    <div className="">
       <Navbar />
       <div>
         <Routes>

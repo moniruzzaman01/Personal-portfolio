@@ -3,7 +3,7 @@ import profile from "../assets/profile_pic.png";
 
 const Home = () => {
   return (
-    <div className="hero min-h-screen  mt-[-7vh]">
+    <div className="hero my-12 lg:my-32">
       <div className="hero-content flex-col gap-20 lg:flex-row-reverse">
         <img
           src={profile}
