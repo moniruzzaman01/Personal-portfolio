@@ -9,26 +9,23 @@ const Navbar = () => {
         <Link to="/">Home</Link>
       </li>
       <li className=" text-xl mb-2">
-        <Link to="/appoinment">Appoinment</Link>
-      </li>
-      <li className=" text-xl mb-2">
-        <Link to="/review">Review</Link>
-      </li>
-      <li className=" text-xl mb-2">
-        <Link to="/contact">Contact Us</Link>
-      </li>
-      <li className=" text-xl mb-2">
         <Link to="/about">About</Link>
+      </li>
+      <li className=" text-xl mb-2">
+        <Link to="/contact">Contact</Link>
+      </li>
+      <li className=" text-xl mb-2">
+        <Link to="/portfolio">Portfolio</Link>
       </li>
     </>
   );
   return (
     <div className="navbar">
       <div className="navbar-start">
-        <div className="dropdown">
+        <div>
           <label
             onClick={() => setNavModal(!navModal)}
-            className="btn bg-transparent border-0 "
+            className=" cursor-pointer bg-transparent border-0 "
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -38,15 +35,15 @@ const Navbar = () => {
               stroke="currentColor"
             >
               <path
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                stroke-width="2"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth="2"
                 d="M4 6h16M4 12h8m-8 6h16"
               />
             </svg>
           </label>
           {navModal && (
-            <ul className=" mt-5 bg-slate-800 p-5 shadow-2xl rounded-box w-60 h-60 absolute">
+            <ul className=" mt-5 bg-slate-800 p-5 shadow-2xl rounded-box w-96 ml-1 h-fit absolute z-10">
               {navMenuItems}
             </ul>
           )}
@@ -55,9 +52,9 @@ const Navbar = () => {
       <div className="navbar-end">
         <Link
           to="/"
-          className=" normal-case text-3xl border-4 font-bold h-12 w-12 text-center rounded-full mr-5"
+          className=" normal-case text-3xl border-4 font-bold h-12 w-12 text-center rounded-full mr-1"
         >
-          S
+          M
         </Link>
       </div>
     </div>
