@@ -3,10 +3,18 @@ import Navbar from "./Components/Navbar";
 import About from "./Pages/About";
 import Contact from "./Pages/Contact";
 import Home from "./Pages/Home";
+import bg from "../src/assets/bg.jpg";
 
 function App() {
   return (
-    <div className="">
+    <div
+      style={{
+        backgroundImage: `url(${bg})`,
+        backgroundPosition: "center 0%",
+        backgroundSize: "cover",
+        backgroundRepeat: "no-repeat",
+      }}
+    >
       <Navbar />
       <div>
         <Routes>

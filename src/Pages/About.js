@@ -8,7 +8,7 @@ const About = () => {
     );
   };
   return (
-    <div className=" min-h-[90vh] pt-10">
+    <div className=" min-h-[93vh] pt-10">
       <h1 className=" text-center uppercase text-3xl mb-10 font-bold">
         About me
       </h1>

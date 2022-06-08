@@ -1,11 +1,12 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
+import nav from "../assets/bg.jpg";
 
 const Navbar = () => {
   const [navModal, setNavModal] = useState(false);
   const navMenuItems = (
     <>
-      <button className="btn btn-outline border-2 rounded-full font-bold text-2xl absolute top-5 right-5">
+      <button className="btn btn-outline border-2 rounded-full font-bold text-2xl absolute top-5 right-5 h-12 w-12">
         X
       </button>
       <Link to="/">
@@ -62,7 +63,15 @@ const Navbar = () => {
         </div>
       </div>
       {navModal && (
-        <ul className="fixed bg-slate-800  z-10 left-0 top-0 h-full right-0 flex justify-center items-center">
+        <ul
+          className="fixed  z-10 left-0 top-0 h-full right-0 flex justify-center items-center"
+          style={{
+            backgroundImage: `url(${nav})`,
+            backgroundPosition: "center 0%",
+            backgroundSize: "cover",
+            backgroundRepeat: "no-repeat",
+          }}
+        >
           <div onClick={() => setNavModal(!navModal)}>{navMenuItems}</div>
         </ul>
       )}
