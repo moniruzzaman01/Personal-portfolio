@@ -7,7 +7,7 @@ const Home = () => {
       <div className="hero-content flex-col gap-20 lg:flex-row-reverse">
         <img
           src={profile}
-          className="max-w-sm border-4 rounded-full p-5 "
+          className=" w-full max-w-sm border-4 rounded-full p-5 "
           alt=""
         />
         <div>

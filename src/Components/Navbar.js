@@ -55,7 +55,7 @@ const Navbar = () => {
         <div>
           <Link
             to="/"
-            className=" leading-[4vh] block normal-case text-2xl border-4 font-bold h-12 w-12 text-center rounded-full mr-1"
+            className=" block text-3xl font-bold border-4 rounded-full h-12 w-12 text-center "
           >
             M
           </Link>

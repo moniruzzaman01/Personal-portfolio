@@ -8,7 +8,7 @@ const About = () => {
     );
   };
   return (
-    <div className=" min-h-[93vh] pt-10">
+    <div className=" min-h-[90vh] pt-10">
       <h1 className=" text-center uppercase text-3xl mb-10 font-bold">
         About me
       </h1>
@@ -17,7 +17,7 @@ const About = () => {
           <div>
             <img
               src={profile}
-              className="max-w-sm rounded-2xl shadow-2xl border-4"
+              className=" w-full max-w-sm rounded-2xl shadow-2xl border-4"
               alt=""
             />
           </div>
