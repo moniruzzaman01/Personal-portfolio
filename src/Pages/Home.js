@@ -16,10 +16,10 @@ const Home = () => {
             i'm moniruzzaman
           </h1>
           <p className="pb-5 lg:text-2xl capitalize">
-            A full stact web developer
+            A full stack web developer
           </p>
-          <button className="btn btn-outline text-slate-400 font-bold rounded-full">
-            Know more
+          <button className="btn btn-outline text-slate-400 font-bold rounded-full px-10">
+            download resume
           </button>
         </div>
       </div>

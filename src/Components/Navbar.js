@@ -31,8 +31,8 @@ const Navbar = () => {
     </>
   );
   return (
-    <div className=" p-5 lg:p-10">
-      <div className=" flex justify-between">
+    <div className=" px-5 lg:px-10">
+      <div className=" flex justify-between items-center min-h-[7vh]">
         <label
           onClick={() => setNavModal(!navModal)}
           className=" cursor-pointer bg-transparent border-0 "

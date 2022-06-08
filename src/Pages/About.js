@@ -3,9 +3,10 @@ import profile from "../assets/profile_pic.png";
 
 const About = () => {
   return (
-    <div className=" min-h-screen mt-10">
-      <h4 className=" text-center uppercase text-lg">Main Info</h4>
-      <h1 className=" text-center uppercase text-3xl mb-10">About me</h1>
+    <div className=" min-h-[93vh] pt-10">
+      <h1 className=" text-center uppercase text-3xl mb-10 font-bold">
+        About me
+      </h1>
       <div className="hero">
         <div className="hero-content flex-col lg:flex-row gap-20">
           <div>
@@ -25,10 +26,10 @@ const About = () => {
             <p className=" text-xl mb-5">
               odit quo alias possimus ut praesentium magnam labore a amet natus!
             </p>
-            <button className="btn btn-outline font-bold mt-10 text-slate-300 rounded-full mr-5">
+            <button className="btn btn-outline font-bold mt-10 text-slate-300 rounded-full mr-5 px-10">
               Download Resume
             </button>
-            <button className="btn btn-outline font-bold mt-10 text-slate-300 rounded-full">
+            <button className="btn btn-outline font-bold mt-10 text-slate-300 rounded-full px-10">
               Hire Me
             </button>
           </div>
