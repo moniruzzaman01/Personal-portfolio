@@ -31,7 +31,7 @@ const Navbar = () => {
     </>
   );
   return (
-    <div className=" px-5 lg:px-10">
+    <div className=" px-5 lg:px-10 ">
       <div className=" flex justify-between items-center min-h-[7vh]">
         <label
           onClick={() => setNavModal(!navModal)}
@@ -39,7 +39,7 @@ const Navbar = () => {
         >
           <svg
             xmlns="http://www.w3.org/2000/svg"
-            className="h-10 w-10"
+            className="h-12 w-12"
             fill="none"
             viewBox="0 0 24 24"
             stroke="currentColor"
@@ -55,7 +55,7 @@ const Navbar = () => {
         <div>
           <Link
             to="/"
-            className=" block normal-case text-3xl border-4 font-bold h-12 w-12 text-center rounded-full mr-1"
+            className=" leading-[4vh] block normal-case text-2xl border-4 font-bold h-12 w-12 text-center rounded-full mr-1"
           >
             M
           </Link>
