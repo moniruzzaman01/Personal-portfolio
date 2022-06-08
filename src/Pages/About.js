@@ -2,6 +2,11 @@ import React from "react";
 import profile from "../assets/profile_pic.png";
 
 const About = () => {
+  const downloadResume = () => {
+    window.open(
+      "https://drive.google.com/file/d/1FDk4LBj0u9QtA-1zURRVWY5DAYgOVEvw/view?usp=sharing"
+    );
+  };
   return (
     <div className=" min-h-[93vh] pt-10">
       <h1 className=" text-center uppercase text-3xl mb-10 font-bold">
@@ -26,7 +31,10 @@ const About = () => {
             <p className=" text-xl mb-5">
               odit quo alias possimus ut praesentium magnam labore a amet natus!
             </p>
-            <button className="btn btn-outline font-bold mt-10 text-slate-300 rounded-full mr-5 px-10">
+            <button
+              onClick={downloadResume}
+              className="btn btn-outline font-bold mt-10 text-slate-300 rounded-full mr-5 px-10"
+            >
               Download Resume
             </button>
             <button className="btn btn-outline font-bold mt-10 text-slate-300 rounded-full px-10">

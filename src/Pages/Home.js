@@ -18,9 +18,15 @@ const Home = () => {
           <p className="pb-5 lg:text-2xl capitalize">
             A full stack web developer
           </p>
-          <button className="btn btn-outline text-slate-400 font-bold rounded-full px-10">
-            download resume
-          </button>
+          <a
+            target="_blank"
+            rel="noreferrer noopener"
+            href="https://drive.google.com/file/d/1FDk4LBj0u9QtA-1zURRVWY5DAYgOVEvw/view?usp=sharing"
+          >
+            <button className="btn btn-outline text-slate-400 font-bold rounded-full px-10">
+              download resume
+            </button>
+          </a>
         </div>
       </div>
     </div>
