@@ -3,10 +3,10 @@ import React from "react";
 const Contact = () => {
   return (
     <div className="  min-h-[93vh] pt-[40%] md:pt-[20%] lg:pt-[10%]">
-      <h1 className=" text-center uppercase text-3xl mb-10 font-bold">
+      <h1 className=" text-center uppercase text-3xl mb-16 font-bold">
         contact me
       </h1>
-      <div className=" max-w-lg mx-auto">
+      <div className=" max-w-lg mx-auto px-5 md:px-0 lg:px-0">
         <form className=" text-center" action="">
           <input
             type="text"
@@ -22,7 +22,7 @@ const Contact = () => {
             class="textarea textarea-bordered w-full max-w-lg rounded-full mb-5"
             placeholder="Write message here"
           ></textarea>
-          <button className="btn btn-outline font-bold text-slate-300 rounded-full px-10 ">
+          <button className="btn btn-outline font-bold text-slate-300 rounded-full px-10 w-full md:w-1/3 lg:w-1/3 ">
             send
           </button>
         </form>
