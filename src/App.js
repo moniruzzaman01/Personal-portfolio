@@ -4,6 +4,7 @@ import About from "./Pages/About";
 import Contact from "./Pages/Contact";
 import Home from "./Pages/Home";
 import bg from "../src/assets/bg.jpg";
+import Portfolio from "./Pages/Portfolio";
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
           <Route path="/" element={<Home />}></Route>
           <Route path="/about" element={<About />}></Route>
           <Route path="/contact" element={<Contact />}></Route>
+          <Route path="/portfolio" element={<Portfolio />}></Route>
         </Routes>
       </div>
     </div>
