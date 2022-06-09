@@ -4,19 +4,19 @@ const Card = ({ img }) => {
   return (
     <>
       {/* card start */}
-      <div class="card md:card-side lg:card-side bg-base-100 shadow-xl">
+      <div className="card md:card-side lg:card-side bg-base-100 shadow-xl">
         <div className=" w-1/2">
           <figure>
             <img src={img} alt="Album" />
           </figure>
           <div className=" mt-3 flex justify-around mb-3">
-            <button class="btn btn-sm btn-outline">Live site</button>
-            <button class="btn btn-sm btn-outline">Client Code</button>
-            <button class="btn btn-sm btn-outline">server code</button>
+            <button className="btn btn-sm btn-outline">Live site</button>
+            <button className="btn btn-sm btn-outline">Client Code</button>
+            <button className="btn btn-sm btn-outline">server code</button>
           </div>
         </div>
-        <div class=" p-3">
-          <h2 class=" text-xl">Creative Agency - (template)</h2>
+        <div className=" p-3">
+          <h2 className=" text-xl">Creative Agency - (template)</h2>
           <h3 className=" text-lg mt-2"> Features:</h3>
           <p>1. Eye catchy color combination.</p>
           <p>2. Responsive design.</p>

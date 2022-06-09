@@ -12,8 +12,8 @@ const Portfolio = () => {
       <div className=" flex justify-center p-10">
         <div className=" grid grid-cols-1 md:grid-cols-1 lg:grid-cols-2 gap-10">
           {/* card start */}
-          <div class="card md:card-side lg:card-side bg-base-100 shadow-xl">
-            <div className=" w-1/2">
+          <div className="card md:card-side lg:card-side bg-base-100 shadow-xl">
+            <div className=" lg:w-1/2">
               <figure>
                 <img src={portfolio2} alt="Album" />
               </figure>
@@ -22,7 +22,7 @@ const Portfolio = () => {
                   onClick={() =>
                     openLink("https://creative-agency-by-shakib.netlify.app/")
                   }
-                  class="btn btn-sm btn-outline"
+                  className="btn btn-sm btn-outline"
                 >
                   Live site
                 </button>
@@ -32,15 +32,15 @@ const Portfolio = () => {
                       "https://github.com/moniruzzaman01/creative-agency-client"
                     )
                   }
-                  class="btn btn-sm btn-outline"
+                  className="btn btn-sm btn-outline"
                 >
                   code link
                 </button>
-                {/* <button class="btn btn-sm btn-outline">server code</button> */}
+                {/* <button className="btn btn-sm btn-outline">server code</button> */}
               </div>
             </div>
-            <div class=" p-3">
-              <h2 class=" text-xl">Creative Agency - (template)</h2>
+            <div className=" p-3">
+              <h2 className=" text-xl">Creative Agency - (template)</h2>
               <h3 className=" text-lg mt-2"> Features:</h3>
               <p>1. Eye catchy color combination.</p>
               <p>2. Responsive design.</p>
@@ -53,15 +53,15 @@ const Portfolio = () => {
           </div>
           {/* card end */}
           {/* card start */}
-          <div class="card md:card-side lg:card-side bg-base-100 shadow-xl">
-            <div className=" w-1/2">
+          <div className="card md:card-side lg:card-side bg-base-100 shadow-xl">
+            <div className=" lg:w-1/2">
               <figure>
                 <img src={portfolio} alt="Album" />
               </figure>
               <div className=" mt-3 flex justify-around mb-3">
                 <button
                   onClick={() => openLink("https://groceries-59179.web.app/")}
-                  class="btn btn-sm btn-outline"
+                  className="btn btn-sm btn-outline"
                 >
                   Live site
                 </button>
@@ -71,7 +71,7 @@ const Portfolio = () => {
                       "https://github.com/moniruzzaman01/groceries-client-side"
                     )
                   }
-                  class="btn btn-sm btn-outline"
+                  className="btn btn-sm btn-outline"
                 >
                   Client Code
                 </button>
@@ -81,14 +81,14 @@ const Portfolio = () => {
                       "https://github.com/moniruzzaman01/groceries-server-side"
                     )
                   }
-                  class="btn btn-sm btn-outline"
+                  className="btn btn-sm btn-outline"
                 >
                   server code
                 </button>
               </div>
             </div>
-            <div class=" p-3">
-              <h2 class=" text-xl">Groceries</h2>
+            <div className=" p-3">
+              <h2 className=" text-xl">Groceries</h2>
               <h3 className=" text-lg mt-2"> Features:</h3>
               <p>1. Firebase Authentication system.</p>
               <p>2. Database access to secure data.</p>
@@ -110,8 +110,8 @@ const Portfolio = () => {
           </div>
           {/* card end */}
           {/* card start */}
-          <div class="card md:card-side lg:card-side bg-base-100 shadow-xl">
-            <div className=" w-1/2">
+          <div className="card md:card-side lg:card-side bg-base-100 shadow-xl">
+            <div className=" lg:w-1/2">
               <figure>
                 <img src={portfolio1} alt="Album" />
               </figure>
@@ -120,7 +120,7 @@ const Portfolio = () => {
                   onClick={() =>
                     openLink("https://assignment-12-fec01.web.app/")
                   }
-                  class="btn btn-sm btn-outline"
+                  className="btn btn-sm btn-outline"
                 >
                   Live site
                 </button>
@@ -130,7 +130,7 @@ const Portfolio = () => {
                       "https://github.com/moniruzzaman01/exim-manufacturer-company-client"
                     )
                   }
-                  class="btn btn-sm btn-outline"
+                  className="btn btn-sm btn-outline"
                 >
                   Client Code
                 </button>
@@ -140,14 +140,14 @@ const Portfolio = () => {
                       "https://github.com/moniruzzaman01/exim-manufacturer-company-server"
                     )
                   }
-                  class="btn btn-sm btn-outline"
+                  className="btn btn-sm btn-outline"
                 >
                   server code
                 </button>
               </div>
             </div>
-            <div class=" p-3">
-              <h2 class=" text-xl">Exim - manufacturer company</h2>
+            <div className=" p-3">
+              <h2 className=" text-xl">Exim - manufacturer company</h2>
               <h3 className=" text-lg mt-2"> Features:</h3>
               <p>1. Firebase Authentication System.</p>
               <p>2. Stripe payment system.</p>
@@ -176,12 +176,12 @@ const Portfolio = () => {
 
 export default Portfolio;
 
-// <div class="card card-compact bg-base-100">
+// <div className="card card-compact bg-base-100">
 //   <figure>
 //     <img src={portfolio} alt="" />
 //   </figure>
-//   <div class=" p-3">
-//     <h2 class=" text-xl">Creative Agency - (template)</h2>
+//   <div className=" p-3">
+//     <h2 className=" text-xl">Creative Agency - (template)</h2>
 //     <h3 className=" text-lg "> Features:</h3>
 //     <p>1.</p>
 //     <p>2.</p>
@@ -189,9 +189,9 @@ export default Portfolio;
 //     <p>4.</p>
 //     <p>5.</p>
 //     <div className=" mt-3 flex justify-around mb-3">
-//       <button class="btn btn-sm btn-outline">Live site</button>
-//       <button class="btn btn-sm btn-outline">Client Code</button>
-//       <button class="btn btn-sm btn-outline">server code</button>
+//       <button className="btn btn-sm btn-outline">Live site</button>
+//       <button className="btn btn-sm btn-outline">Client Code</button>
+//       <button className="btn btn-sm btn-outline">server code</button>
 //     </div>
 //   </div>
 // </div>
